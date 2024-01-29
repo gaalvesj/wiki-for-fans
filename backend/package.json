@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsnd --respawn --transpile-only index.ts"
@@ -15,9 +14,11 @@
     "graphql": "^15.8.0",
     "node": "^21.6.1",
     "reflect-metadata": "^0.2.1",
-    "type-graphql": "^1.1.1"
+    "type-graphql": "^1.1.1",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.10"
-  }
+  },
+  "description": ""
 }
