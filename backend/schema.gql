@@ -3,6 +3,18 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Character {
+  age: Float!
+  anime: String!
+  characteristics: String!
+  id: ID!
+  name: String!
+}
+
+type Mutation {
+  CreateCharacter(age: Float!, anime: String!, characteristics: String!, name: String!): Character!
+}
+
 type Query {
-  hello: String!
+  Character: [Character!]!
 }
